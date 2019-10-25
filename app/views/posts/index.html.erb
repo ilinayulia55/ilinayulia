@@ -8,6 +8,7 @@
   <p><%= post.body %></p>
   <small><%=post.user&.login%></small>
   <%= l(post.created_at, format: :long) %>
+ <%= link_to 'Подробнее', post_path(post) %> 
 </div>
 <%end%>
 
