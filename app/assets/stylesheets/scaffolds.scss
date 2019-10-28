@@ -1,16 +1,18 @@
 body {
   background-color: #fff;
-  color: #333;
+  color: #8B4513;
   margin: 33px;
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 15px;
+  line-height: 16px;
+  text-indent:15px;
 }
 
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 18px;
+  color: #000000;
 }
 
 pre {
@@ -20,9 +22,10 @@ pre {
 }
 
 a {
-  color: #000;
-
-  &:visited {
+  color: #0000CD;
+  margin: 15px;
+  font-style: italic;
+    &:visited {
     color: #666;
   }
 
@@ -81,4 +84,14 @@ div {
 
 label {
   display: block;
+}
+
+.post{
+  background-color:#F5F5DC;
+  border: 3px solid #DEB887;
+  margin: 10px 0;
+}
+
+h1 {
+  color: 	#A52A2A;
 }
